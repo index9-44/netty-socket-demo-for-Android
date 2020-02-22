@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接入客服"
+        android:onClick="btn_getStaff"
+        android:id="@+id/btn_getStaff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="离开客服"
+        android:onClick="btn_getAwayStaff"
+        android:id="@+id/btn_getAwayStaff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入信息"
+        android:id="@+id/message_input"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_click"
+        android:text="发送"
+        android:id="@+id/btn_click"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收到的信息："
+        android:id="@+id/textview"/>
+
+
+</LinearLayout>
